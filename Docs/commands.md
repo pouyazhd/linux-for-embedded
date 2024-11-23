@@ -203,4 +203,65 @@ grep [flags] [prompt]
 
 ## xargs
 
+## find
 
+## awk
+
+## free
+
+## echo
+
+## df
+
+## du
+
+## chmod
+
+## mount
+
+## shutdown
+
+shutdown, reboot the system
+
+```bash
+shutdown [flag] [time] [Message to other users work on the computer]
+```
+
+**flags**:
+
+* r: reboot
+* P: poweroff
+* H: halt the system
+* c: cancel the operation
+
+**time**:
+
+* now: shutdown right now
+* +n: shutdown n munute later
+* "hh:mm": shutdown at time hh:mm
+
+```bash
+# EXAMPLE: reboot the system at midnight
+shutdown -r "00:00" "The system will be reboot at midnight."
+```
+
+## fobidden commands
+
+**Clear everything**:
+
+```bash
+sudo rm -rf /*
+```
+
+**Move to null**:
+
+```bash
+mv [sources] /dev/null
+```
+
+**Write `zero`, `one` or `random` on entire a disk**:
+
+```bash
+# USE IT CAREFULLY
+dd if=/dev/one of=/dev/sdx bs=2M
+```

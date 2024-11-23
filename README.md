@@ -39,7 +39,8 @@ Topics
    19. du
    20. chmod
    21. mount
-   22. forbidden commands
+   22. shutdown
+   23. forbidden commands
 4. Install and remove software
    1. sudo
    2. install softwares
@@ -52,23 +53,25 @@ Topics
 6. Network
    1. ping
    2. ss
-7. ssh
+   3. mrt
+7. Users nad permissions
+8. ssh
    1. passwordless ssh
    2. scp
    3. ~/.ssh configs
-8. Timing
+9. Timing
    1. job
    2. cronjob
    3. crontab
-9. systemd
-   1. unit files
-   2. mount files
-   3. timing files
-10. Install `Raspberry Pi OS`
+10. systemd
+    1. unit files
+    2. mount files
+    3. timing files
+11. Install `Raspberry Pi OS`
     1. working with desktop of Raspberry pi
     2. set static IP
     3. ssh to Raspberry Pi
-11. docker
+12. docker
     1. install docker
     2. pull
     3. run
