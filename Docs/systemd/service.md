@@ -51,6 +51,10 @@ Three main sections are `Unit`, `Service` and `Install` and each section has it'
 * **Type**:
 * **Restart**: Restart policy if service failed. Takes one of `always`, `no`, `on-success`, `on-failure`, `on-abnormal`, `on-watchdog` or `on-abort` values.
 
+**Install**:
+
+* **WantedBy**: A list of units that depend on the unit.
+
 ## Example
 
 Steps:
@@ -102,11 +106,13 @@ Now create a service file:
 
 ```text
 [Unit]
+Description="A simple service to logs the time and date of system into  
+After=network.target
 
 [Service]
 
 [Install]
 WanterBy=multi-user.target
-After=
+
 
 ```
