@@ -14,7 +14,7 @@ Topics
       5. /dev
 3. Basic commands
    1. ls
-      1. -atlash
+      1. -atlAsh
       2. link direcrories
       3. lsusb
       4. lsblk
@@ -63,8 +63,8 @@ Topics
    1. job
    2. cronjob
    3. crontab
-10. systemd
-    1. unit files
+10. systemd units
+    1. [service files](/Docs/systemd/service.md)
     2. mount files
     3. timing files
 11. Install `Raspberry Pi OS`
