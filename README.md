@@ -13,34 +13,41 @@ Topics
       4. /lib
       5. /dev
 3. Basic commands
-   1. ls
+   1. Install application
+   2. ls
       1. -atlAsh
       2. link direcrories
       3. lsusb
       4. lsblk
       5. lspci
-   2. tree
-   3. cd
-   4. rm
-   5. mv
-   6. mkdir
-   7. cp
-   8. dd
-   9. tar
-   10. cat
-   11. top
-   12. grep
-   13. awk
-   14. find
-   15. xargs
-   16. echo
-   17. free
-   18. df
-   19. du
-   20. chmod
-   21. mount
-   22. shutdown
-   23. forbidden commands
+   3. tree
+   4. cd
+   5. rm
+   6. mv
+   7. mkdir
+   8. cp
+   9. dd
+   10. tar
+   11. gzip
+   12. 7zip
+   13. cat
+   14. top
+   15. grep
+   16. awk
+   17. find
+   18. xargs
+   19. echo
+   20. free
+   21. df
+   22. du
+   23. chmod
+   24. mount
+   25. shutdown
+   26. fg
+   27. bg
+   28. &
+   29. pipe
+   30. forbidden commands
 4. Install and remove software
    1. sudo
    2. install softwares
